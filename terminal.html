@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>🔴 Offline</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+        <script src="https://cdn.socket.io/4.4.1/socket.io.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
+        <link rel="shortcut icon" href="/png/terminal-512.png" type="image/x-icon">
+        <style>
+            #fullscreenBtn { display: none; }
+            .terminal, span { --size: 1.4; }
+        </style>
+    </head>
+    <body onload="fullscreen();"></body>
+    <script src="/js/terminal-socket-helper.js"></script>
+</html>
