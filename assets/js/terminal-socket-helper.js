@@ -60,7 +60,7 @@ let main = $("body").terminal(
     }
 );
 
-const socket = io("http://localhost:3000", { autoConnect: false });
+const socket = io({ autoConnect: false });
 
 const connError = () => main.error("You are currenlty offline.");
 
