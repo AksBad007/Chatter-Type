@@ -4,7 +4,7 @@
 
 [![Node.js](https://img.shields.io/badge/Node.js-green?style=flat-square)](https://nodejs.org/en/)
 [![Socket.io](https://img.shields.io/badge/Socket.IO-white?style=flat-square)](https://socket.io/)
-[![Heroku](https://img.shields.io/badge/Project(Heroku)-pink?style=flat-square)](https://chatter-type.herokuapp.com/)
+[![Heroku](https://img.shields.io/badge/Project(Vercel)-pink?style=flat-square)](https://chatter-type.vercel.app//)
 </div><br>
 
 ### Introduction
