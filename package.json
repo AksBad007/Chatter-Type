@@ -1,18 +1,16 @@
 {
-  "name": "call",
+  "name": "chatter-type",
   "version": "1.0.0",
   "description": "",
-  "main": "chat.js",
+  "main": "chat-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon chat-server.js"
+    "start": "node chat-server.js"
   },
   "author": "akshat",
   "license": "ISC",
   "dependencies": {
-    "electron": "^18.2.3",
     "express": "^4.17.3",
-    "nodemon": "^2.0.15",
     "socket.io": "^4.4.1"
   }
 }

@@ -7,6 +7,7 @@ const path = require("path");
 app.use(express.static(__dirname + '/assets'));
 
 app.get("/", (req, res) => res.redirect("/terminal"));
+
 app.get("/terminal", (req, res) => res.sendFile(path.join(__dirname, '/terminal.html')));
 
 io.on("connection", socket => {

@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "chat-server.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "chat-server.js"
+        }
+    ]
+  }
