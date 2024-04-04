@@ -6,9 +6,9 @@ const path = require("path");
 
 app.use(express.static(__dirname + '/assets'));
 
-app.get("/", (req, res) => res.redirect("/terminal"));
+app.get("/", (_req, res) => res.redirect("/terminal"));
 
-app.get("/terminal", (req, res) => res.sendFile(path.join(__dirname, '/terminal.html')));
+app.get("/terminal", (_req, res) => res.sendFile(path.join(__dirname, '/terminal.html')));
 
 io.on("connection", socket => {
     console.log("connected with", socket.id);
