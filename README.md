@@ -16,5 +16,9 @@ Chatter-Type is a terminal-style chat application built using <a href="https://t
 - broadcast \<message> - For sending a message to every connected user.
 - join_room \<message> - For joining a private room.
 - send \<room id or user's socket id> - For sending a private message in a room or to an individual user.
+- clear = For clearing the terminal.
+- copy_id = For copying user's case-sensitive id.
 
 ### Demo - https://fast-four-walnut.glitch.me/
+
+Inspired by all the hacker/superhero movies, especially by the 'Rata Alada' sequence in The Batman (2022).
