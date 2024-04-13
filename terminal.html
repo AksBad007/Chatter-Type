@@ -22,19 +22,23 @@
             }
 
             .terminal .inverted, .cmd .inverted, .cmd .cursor.blink {
-                background-color: #0f0;
+                background-color: transparent;
                 color: black;
+            }
+
+            .cmd-blink span.end > span::before {
+                content: '<?>';
             }
 
             @-webkit-keyframes terminal-blink {
                 0%,
                 100% {
-                    background-color: #000;
+                    background-color: transparent;
                     color: #0f0;
                 }
 
                 50% {
-                    background-color: #0e0;
+                    background-color: transparent;
                     color: #000;
                 }
             }
@@ -42,12 +46,12 @@
             @-ms-keyframes terminal-blink {
                 0%,
                 100% {
-                    background-color: #000;
+                    background-color: transparent;
                     color: #0f0;
                 }
 
                 50% {
-                    background-color: #0e0;
+                    background-color: transparent;
                     color: #000;
                 }
             }
@@ -55,12 +59,12 @@
             @-moz-keyframes terminal-blink {
                 0%,
                 100% {
-                    background-color: #000;
+                    background-color: transparent;
                     color: #0f0;
                 }
 
                 50% {
-                    background-color: #0e0;
+                    background-color: transparent;
                     color: #000;
                 }
             }
@@ -68,12 +72,12 @@
             @keyframes terminal-blink {
                 0%,
                 100% {
-                    background-color: #000;
+                    background-color: transparent;
                     color: #0f0;
                 }
 
                 50% {
-                    background-color: #0e0;
+                    background-color: transparent;
                     color: #000;
                 }
             }
